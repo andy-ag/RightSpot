@@ -89,23 +89,29 @@ After deciding on the appropriate feature set, we produced wireframes and an ERD
 
 Below are side-by-side comparisons of the wireframes and the final product.
 
-Landing page:  
-<img src="./readme_assets/landing_wf.png" alt="" width="300"/> <img src="./readme_assets/landing_f.png" alt="" width="300"/>
+Landing page - <a href="https://i.imgur.com/1pEXaeh.png" target="_blank" rel="noopener noreferrer">wireframe</a> / <a href="https://i.imgur.com/SeEgezu.png" target="_blank" rel="noopener noreferrer">final</a>:  
+<img src="https://i.imgur.com/1pEXaeh.png" alt="" width="300"/> <img src="https://i.imgur.com/SeEgezu.png" alt="" width="300"/>
 
-Location details:  
-<img src="./readme_assets/detail_wf.png" alt="" width="300"/> <img src="./readme_assets/detail_f.png" alt="" width="300"/>
+Location details - <a href="https://i.imgur.com/jgNZEx0.png" target="_blank" rel="noopener noreferrer">wireframe</a> / <a href="https://i.imgur.com/DNfHtGQ.png" target="_blank" rel="noopener noreferrer">final</a>:  
+<!-- <img src="./readme_assets/detail_wf.png" alt="" width="300"/> <img src="./readme_assets/detail_f.png" alt="" width="300"/> -->
+<img src="https://i.imgur.com/jgNZEx0.png" alt="" width="300"/> <img src="https://i.imgur.com/DNfHtGQ.png" alt="" width="300"/>
 
-Saved locations:  
-<img src="./readme_assets/locations_wf.png" alt="" width="300"/> <img src="./readme_assets/locations_f.png" alt="" width="300"/>
+Saved locations - <a href="https://i.imgur.com/z2xSlf6.png" target="_blank" rel="noopener noreferrer">wireframe</a> / <a href="https://i.imgur.com/xmqTwiV.png" target="_blank" rel="noopener noreferrer">final</a>:  
+<!-- <img src="./readme_assets/locations_wf.png" alt="" width="300"/> <img src="./readme_assets/locations_f.png" alt="" width="300"/> -->
+<img src="https://i.imgur.com/z2xSlf6.png" alt="" width="300"/> <img src="https://i.imgur.com/xmqTwiV.png" alt="" width="300"/>
 
-Projects:  
-<img src="./readme_assets/projects_wf.png" alt="" width="300"/> <img src="./readme_assets/projects_f.png" alt="" width="300"/>
+Projects - <a href="https://i.imgur.com/sd3WPHb.png" target="_blank" rel="noopener noreferrer">wireframe</a> / <a href="https://i.imgur.com/1hq9Z0z.png" target="_blank" rel="noopener noreferrer">final</a>:  
+<!-- <img src="./readme_assets/projects_wf.png" alt="" width="300"/> <img src="./readme_assets/projects_f.png" alt="" width="300"/> -->
+<img src="https://i.imgur.com/sd3WPHb.png" alt="" width="300"/> <img src="https://i.imgur.com/1hq9Z0z.png" alt="" width="300"/>
 
-Project details:  
-<img src="./readme_assets/project_wf.png" alt="" width="300"/> 
+Project details - <a href="https://i.imgur.com/Yb74vdG.png" target="_blank" rel="noopener noreferrer">wireframe</a> / <a href="https://i.imgur.com/rUggnXP.png" target="_blank" rel="noopener noreferrer">final</a> / <a href="https://i.imgur.com/J7VyHyU.png" target="_blank" rel="noopener noreferrer">final (cont.)</a>: 
+<!-- <img src="./readme_assets/project_wf.png" alt="" width="300"/>  -->
+<img src="https://i.imgur.com/Yb74vdG.png" alt="" width="300"/> 
 
-<img src="./readme_assets/project_f_1.png" alt="" width="300"/>
-<img src="./readme_assets/project_f_2.png" alt="" width="300"/>
+<!-- <img src="./readme_assets/project_f_1.png" alt="" width="300"/>
+<img src="./readme_assets/project_f_2.png" alt="" width="300"/> -->
+<img src="https://i.imgur.com/rUggnXP.png" alt="" width="300"/>
+<img src="https://i.imgur.com/J7VyHyU.png" alt="" width="300"/>
 
 We did not assign rigid roles and responsibilities from the outset, but agreed instead to have a daily standup where we would calibrate our mutual understanding of the current state of the project, as well as both tactical and strategic next steps.
 
@@ -355,9 +361,10 @@ def location_detail(request):
 
 I also had to create the ONS data API that was to be called in this function, while my teammate handled the other ones. We set the APIs up as separate apps to be mounted onto the project - another example of the separation of concerns that we implemented as part of this project.
 
-Folder structure: 
+ <a href="https://i.imgur.com/OgKZuKr.png" target="_blank" rel="noopener noreferrer">Folder structure</a>:
 
-<img src="./readme_assets/file_structure.png" alt="" width="300"/> 
+<!-- <img src="./readme_assets/file_structure.png" alt="" width="300"/>  -->
+<img src="https://i.imgur.com/OgKZuKr.png" alt="" width="300"/>
 
 data/views.py
 ```python
